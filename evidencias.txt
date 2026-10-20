@@ -1,0 +1,17 @@
+=== Ejercicio 1. Viaje en taxi ===
+
+Caso 1:
+Kilómetros: 5
+Importe: $80.00
+
+Caso 2:
+Kilómetros: 20
+Importe: $215.00
+
+Caso 3:
+Kilómetros: 21
+Importe: $201.60
+
+Caso 4:
+Kilómetros: 30
+Importe: $274.50

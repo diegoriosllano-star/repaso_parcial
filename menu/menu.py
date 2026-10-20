@@ -1,5 +1,10 @@
+from ejercicios import ejercicio1_taxi as ej1
+
+
 def ejecutarEjercicio1():
-    print("Ejercicio 1 pendiente.")
+    kilometros = ej1.leerKilometros()
+    importe = ej1.calcularImporte(kilometros)
+    ej1.mostrarImporte(kilometros, importe)
 
 
 def ejecutarEjercicio2():
