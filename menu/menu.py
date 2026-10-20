@@ -1,4 +1,5 @@
 from ejercicios import ejercicio1_taxi as ej1
+from ejercicios import ejercicio2_comision as ej2
 
 
 def ejecutarEjercicio1():
@@ -8,7 +9,11 @@ def ejecutarEjercicio1():
 
 
 def ejecutarEjercicio2():
-    print("Ejercicio 2 pendiente.")
+    ventas = ej2.leerVentas()
+    comision = ej2.calcularComision(ventas)
+    bono = ej2.calcularBono(ventas)
+    total = comision + bono
+    ej2.mostrarPago(comision, bono, total)
 
 
 def ejecutarEjercicio3():

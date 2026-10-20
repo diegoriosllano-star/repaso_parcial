@@ -15,3 +15,25 @@ Importe: $201.60
 Caso 4:
 Kilómetros: 30
 Importe: $274.50
+
+=== Ejercicio 2. Comisión de ventas ===
+
+Caso 1:
+Comisión: $250.00
+Bono: $0.00
+Total: $250.00
+
+Caso 2:
+Comisión: $800.00
+Bono: $0.00
+Total: $800.00
+
+Caso 3:
+Comisión: $4000.00
+Bono: $0.00
+Total: $4000.00
+
+Caso 4:
+Comisión: $4000.08
+Bono: $1000.00
+Total: $5000.08
