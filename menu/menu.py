@@ -1,5 +1,6 @@
 from ejercicios import ejercicio1_taxi as ej1
 from ejercicios import ejercicio2_comision as ej2
+from ejercicios import ejercicio3_biblioteca as ej3
 
 
 def ejecutarEjercicio1():
@@ -17,7 +18,9 @@ def ejecutarEjercicio2():
 
 
 def ejecutarEjercicio3():
-    print("Ejercicio 3 pendiente.")
+    dias = ej3.leerDias()
+    multa = ej3.calcularMulta(dias)
+    ej3.mostrarMulta(dias, multa)
 
 
 def mostrarMenu():

@@ -37,3 +37,25 @@ Caso 4:
 Comisión: $4000.08
 Bono: $1000.00
 Total: $5000.08
+
+=== Ejercicio 3. Multa de biblioteca ===
+
+Caso 1:
+Días de retraso: 0
+Multa: $0.00
+
+Caso 2:
+Días de retraso: 10
+Multa: $50.00
+
+Caso 3:
+Días de retraso: 11
+Multa: $60.00
+
+Caso 4:
+Días de retraso: 25
+Multa: $200.00
+
+Caso 5:
+Días de retraso: 40
+Multa: $200.00
